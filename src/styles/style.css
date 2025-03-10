@@ -1,0 +1,246 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://imgs.search.brave.com/tSZXhe5RUL6anmmGgkZRe4jNL16FbZTyYDWtHRHIOZ0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA5LzAxLzc2LzM1/LzM2MF9GXzkwMTc2/MzU4NV9VNzBPV3lp/QmExdmN2eUZKTlho/d0RISlpEVkJVaHhs/NC5qcGc");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+    width: 150px; /* Adjust the size */
+    height: auto;
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 15px; /* Adds spacing between buttons */
+    flex-wrap: wrap; /* Ensures buttons wrap if screen is small */
+    margin-top: 20px; /* Adds space above buttons */
+  }
+  
+  h1, h2, p {
+    text-align: center;
+    color: rgb(191, 127, 0);
+
+  }
+  
+  button {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 19px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(189, 120, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 1px;
+
+  }
+  
+  button:hover {
+    background-color: rgba(140, 140, 140, 0.587);
+  }
+  
+  input, select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+.event-container{
+    width: 95%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.614);
+    color: white;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-left: auto;
+    margin-right: auto;
+}
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #ddd;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(191, 127, 0);
+    line-height: 1.4; 
+}
+
+.logo-tagline {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    gap: 10px; /* Adds spacing between logo and text */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: rgb(189, 120, 0);
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 1px solid rgb(189, 120, 0);
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav-button:hover {
+    background: rgb(189, 120, 0);
+    color: white;
+}
+.navbar-logo{
+    max-width: 150px;
+}
+
+.ae-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.communities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.community-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+}
+
+.community-card h3 {
+    color: rgb(191, 127, 0);
+}
+
+.community-card p {
+    color: rgb(100, 100, 100);
+}
+
+.community-card button {
+    background-color: rgb(189, 120, 0);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.community-card button:hover {
+    background-color: rgb(150, 100, 0);
+}
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    color: rgb(191, 127, 0);
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(191, 127, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.login-container button:hover {
+    background-color: rgb(150, 100, 0);
+}
+.why-choose-us {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us h2 {
+    color: rgb(191, 127, 0);
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.feature {
+    width: 250px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h3 {
+    color: rgb(191, 127, 0);
+    margin-bottom: 10px;
+}
